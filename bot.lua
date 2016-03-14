@@ -5,7 +5,7 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = " "--توکن بوت را درون " قرار دهید --
+local bot_api_key = "142025880:AAELEZYpVrohfQbRnDBfO3BJEznPmUabH38"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
@@ -263,7 +263,7 @@ function msg_processor(msg)
 
 elseif msg.text:match("^/[sS]tart") or msg.text:match("^/[Hh]elp") then
  sendMessage(msg.chat.id, start, true, false, true)
-  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید :)](http://telegram.me/beatbot_team)]], true, false, true)
+  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید :)](http://telegram.me/bpersiangulf_team], true, false, true)
 return end
 
 end
