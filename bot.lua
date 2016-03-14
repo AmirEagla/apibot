@@ -263,7 +263,7 @@ function msg_processor(msg)
 
 elseif msg.text:match("^/[sS]tart") or msg.text:match("^/[Hh]elp") then
  sendMessage(msg.chat.id, start, true, false, true)
-  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید :)](http://telegram.me/bpersiangulf_team], true, false, true)
+  sendMessage(msg.chat.id, [[[به کانال ما بیا و حالشو ببر:)](http://telegram.me/persiangulf_team], true, false, true)
 return end
 
 end
